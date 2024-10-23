@@ -1,18 +1,28 @@
-html{
+html {
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
 
-body{
+body {
     min-width: 1280px;
+    margin: 0;
 }
 
-.header{
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header {
     width: 100%;
+    background: url(../img/photo_2024-09-11_15-51-41\ \(1\)\(1\)\(1\)\(1\)\(1\).png);
+    background-repeat: no-repeat;
+    background-position: top;
 }
 
-.header-container{
-    
+
+.header-container {
+
     max-width: 1200px;
     width: 100%;
     display: flex;
@@ -22,38 +32,67 @@ body{
     margin-right: auto;
 }
 
-.header-logo-container{
+.header-logo-container {
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: center;
 }
 
-.header-logo-subtitle{
+.header-logo-title {
+    color: rgb(1, 110, 206);
+}
+
+.header-logo-subtitle {
+    color: rgb(255, 255, 255);
     margin: 0;
 }
 
-.header-nav-container{
+.header-nav-container {
     width: 30%;
 }
 
-.header-menu{
+.header-menu {
     display: flex;
     justify-content: space-between;
     align-items: start;
 }
 
-.menu-item{
+.menu-item {
     list-style-type: none;
 }
 
-.header-info-container{
+.menu-item-link {
+    color: rgb(1, 110, 206);
+}
+
+.header-info-container {
     margin-left: auto;
     margin-right: auto;
     max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
 }
 
-.albums-container{
+.header-img {
+    width: 30%;
+}
+
+.info-content {
+    width: 60%;
+}
+
+.info-heading {
+    color: rgb(1, 110, 206);
+    font-size: 500%;
+}
+
+.info-subheading {
+    color: rgb(255, 255, 255);
+}
+
+.albums-container {
     margin-left: auto;
     margin-right: auto;
     max-width: 1200px;
@@ -63,82 +102,94 @@ body{
     align-items: center;
 }
 
-.album-signatures{
+.album-signatures {
     display: flex;
     justify-content: space-between;
     align-items: center;
     min-width: 1200px;
 }
 
-.album-info{
+.album-info {
     display: flex;
     justify-content: space-between;
     align-items: center;
     min-width: 1200px;
 }
 
-.track-signatures{
+.track-signatures {
     display: flex;
     justify-content: space-between;
     align-items: center;
     min-width: 1200px;
 }
 
-.track{
+.track {
     display: flex;
     justify-content: space-between;
     align-items: center;
     min-width: 1200px;
 }
 
-.album-number{
+.album-number {
     min-width: 4%;
 }
 
-.album-logo{
+.album-logo {
     width: 5%;
 }
 
-.album-name{
-    min-width: 41%;
-}
-
-.album-author{
-    min-width: 30%;
-}
-
-.number-of-tracks{
-    min-width: 15%;
-}
-
-.album-time{
-    min-width: 5%;
-}
-
-.track-number{
-    min-width: 4%;
-}
-
-.track-logo{
-    width: 5%;
-}
-
-.track-name{
+.album-name {
     min-width: 31%;
 }
 
-.track-author{
+.album-author {
+    min-width: 40%;
+}
+
+.number-of-tracks {
+    min-width: 15%;
+}
+
+.album-time {
+    min-width: 5%;
+}
+
+.track-number {
+    min-width: 4%;
+}
+
+.track-logo {
+    width: 5%;
+}
+
+.track-name {
+    min-width: 31%;
+}
+
+.track-author {
     min-width: 30%;
 }
 
-.track-album{
+.track-album {
     min-width: 20%;
 }
 
-.track-time{
+.track-time {
     min-width: 5%
 }
 
-.install-button{
+.install-button {
     min-width: 5%;
+}
+
+.btn-btn {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border: solid 0.2em rgb(0, 0, 0);
+    border-radius: 100%;
+}
+
+.btn-img {
+    width: 100%;
 }
